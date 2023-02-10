@@ -2,7 +2,7 @@
     <div class="page-my-account">
         <div class="columns is-multiline">
             <div class="column is-12">
-                <h1 class="title">My account</h1>
+                <h1 class="title">My Account</h1>
             </div>
 
             <div class="column is-12">
@@ -39,7 +39,7 @@ export default {
         }
     },
     mounted() {
-        document.title = 'My account | Djackets'
+        document.title = 'My account | Dante Store'
 
         this.getMyOrders()
     },
